@@ -13,7 +13,7 @@ public class DemoGrpcServerApplication {
 	public static void main(String[] args) throws IOException, InterruptedException {
 		SpringApplication.run(DemoGrpcServerApplication.class, args);
 
-		Server server = ServerBuilder.forPort(8080)
+		Server server = ServerBuilder.forPort(58080)
 				.addService(new SampleServiceImpl())
 				.build();
 

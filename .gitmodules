@@ -1,3 +1,6 @@
 [submodule "demo-grpc"]
 	path = demo-grpc
 	url = https://github.com/palmseung/demo-grpc.git
+[submodule "demo-grpc-client"]
+	path = demo-grpc-client
+	url = https://github.com/palmseung/demo-grpc-client.git

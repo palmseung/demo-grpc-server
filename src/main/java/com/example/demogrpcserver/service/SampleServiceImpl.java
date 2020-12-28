@@ -17,6 +17,7 @@ public class SampleServiceImpl extends SampleServiceImplBase {
         .setMessage("success")
         .build());
 
+    log.info("success - server");
     responseObserver.onCompleted();
   }
 }
